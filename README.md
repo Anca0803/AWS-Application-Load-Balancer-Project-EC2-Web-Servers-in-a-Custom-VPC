@@ -84,7 +84,7 @@
  **Project Output**
 - Accessing the ALB public DNS results in alternating web pages from each EC2 instance, each showing the server hostname and internal IP
 
-**What I Learned**
+**What I've learned**
 
 - Designing a VPC from scratch with subnets, routing, and security
 
@@ -118,8 +118,9 @@
 ![ALB- Listeners and rules updated](https://github.com/user-attachments/assets/2cecae6e-f1f1-47ec-a5db-b9c129697d92)
 
 **- ALB- Resource map:**
-  
-![ALB- Resource map updated](https://github.com/user-attachments/assets/5551f843-45e3-4a97-ada2-71af9f849cc2)
+ 
+  ![ALB- Resource map updated](https://github.com/user-attachments/assets/f25de188-b530-4761-94ac-2b65b900695c)
+
 
 **- ALB- Security:**
 
@@ -134,7 +135,7 @@
 
 ![EC2 - 2 updated](https://github.com/user-attachments/assets/18f197fb-625e-4c8d-b652-5254c8ad11dc)
 
-** - Test 1  ALB (result: Instance 1)**
+**- Test 1  ALB (result: Instance 1)**
  
 ![test ALB 1 updated](https://github.com/user-attachments/assets/d130bc96-2306-4888-9f52-711433b9f2be)
 

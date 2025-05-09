@@ -106,29 +106,35 @@
 
 
 - ALB- Overview:
- ![ALB- Network mapping updated](https://github.com/user-attachments/assets/1abd1190-36cf-4308-a3b5-192896f1ea67)
+(https://github.com/user-attachments/assets/1abd1190-36cf-4308-a3b5-192896f1ea67)
 
 - ALB- Details:
- ![ALB- Details updated](https://github.com/user-attachments/assets/9fd897cc-ab11-47b2-8cef-a7d345a97714)
+ (https://github.com/user-attachments/assets/9fd897cc-ab11-47b2-8cef-a7d345a97714)
 
 - ALB- Listeners and rules:
 
-![Uploading ALB- Listeners and rules updated.PNG…]()
+(https://github.com/user-attachments/assets/0f7607e8-b94c-46b8-80a0-c02bfc7a25d4)
 
 - ALB- Resource map:
-  ![ALB- Resource map updated](https://github.com/user-attachments/assets/1f484739-d198-46d7-b1ba-7bf26e3c1c3d)
+  
+(https://github.com/user-attachments/assets/1f484739-d198-46d7-b1ba-7bf26e3c1c3d)
   
 - ALB- Security:
- ![ALB- Security updated](https://github.com/user-attachments/assets/7dd9ead4-b4b7-4f8d-a6ca-27104496db26)
+
+(https://github.com/user-attachments/assets/7dd9ead4-b4b7-4f8d-a6ca-27104496db26)
 
 - EC2 - Instance 1:
- ![EC2 -1 updated](https://github.com/user-attachments/assets/0cb3b7ca-d6c7-4c3f-b3e4-3d62ce44af53)
+
+(https://github.com/user-attachments/assets/0cb3b7ca-d6c7-4c3f-b3e4-3d62ce44af53)
 
 - EC2 - Instance 2:
- ![EC2 - 2 updated](https://github.com/user-attachments/assets/415be22f-b927-4edf-bb03-6cb48839cbaa)
+
+(https://github.com/user-attachments/assets/415be22f-b927-4edf-bb03-6cb48839cbaa)
 
  - Test 1  ALB (result: Instance 1)
- ![test ALB 1 updated](https://github.com/user-attachments/assets/937f831c-fc10-4d53-b9e6-ba8ebbc3403c)
+ 
+ (https://github.com/user-attachments/assets/937f831c-fc10-4d53-b9e6-ba8ebbc3403c)
 
 -  Test 2  ALB (result: Instance 2)
- ![test ALB 2 updated](https://github.com/user-attachments/assets/a3cc6c7f-2fbf-44ad-b493-c5ddf9c33cc1)
+
+(https://github.com/user-attachments/assets/a3cc6c7f-2fbf-44ad-b493-c5ddf9c33cc1)

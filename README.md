@@ -105,14 +105,15 @@
 **- Screenshots illustrating the architecture and configuration steps:**
 
 
-- ALB- Network mapping:
+- ALB- Overview:
  ![ALB- Network mapping updated](https://github.com/user-attachments/assets/1abd1190-36cf-4308-a3b5-192896f1ea67)
 
 - ALB- Details:
  ![ALB- Details updated](https://github.com/user-attachments/assets/9fd897cc-ab11-47b2-8cef-a7d345a97714)
 
 - ALB- Listeners and rules:
- ![ALB- Listeners and rules updated](https://github.com/user-attachments/assets/647e15f3-f896-4ba9-bbe2-9917dbbcb4d3)
+
+![Uploading ALB- Listeners and rules updated.PNG…]()
 
 - ALB- Resource map:
   ![ALB- Resource map updated](https://github.com/user-attachments/assets/1f484739-d198-46d7-b1ba-7bf26e3c1c3d)

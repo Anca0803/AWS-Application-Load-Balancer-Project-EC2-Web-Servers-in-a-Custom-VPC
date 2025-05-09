@@ -101,14 +101,16 @@ It simulates a real-world load-balanced setup for scalable and resilient web hos
 
 Please find the Print screens of my work:
 
-![test ALB 2 updated](https://github.com/user-attachments/assets/f1dc5f91-6bfd-465e-abe2-c702b2935ec1)
-![test ALB 1 updated](https://github.com/user-attachments/assets/be63fb52-1f7b-4058-b804-c5caaca389f5)
-![EC2 -1 updated](https://github.com/user-attachments/assets/debc62bb-533a-42fc-903e-8a7f7a812504)
-![EC2 - 2 updated](https://github.com/user-attachments/assets/ea79a375-451c-4ed4-9b86-e372fb75d00c)
-![ALB- Security updated](https://github.com/user-attachments/assets/a3373d05-7658-4f25-9255-a0c329bb4543)
-![ALB- Resource map updated](https://github.com/user-attachments/assets/f97a6963-0f4b-4d54-a906-0001f373efb9)
-![ALB- Network mapping updated](https://github.com/user-attachments/assets/68efe7bb-699d-40d2-894f-9b5f6670a725)
-![ALB- Listeners and rules updated](https://github.com/user-attachments/assets/d396251d-d777-476e-b5bc-a10cbe9b3977)
-![ALB- Details updated](https://github.com/user-attachments/assets/47d0a7da-f14e-40ac-86c4-0bee427abf2e)
+
+![EC2 -1 updated](https://github.com/user-attachments/assets/0cb3b7ca-d6c7-4c3f-b3e4-3d62ce44af53)
 
 
+![EC2 - 2 updated](https://github.com/user-attachments/assets/415be22f-b927-4edf-bb03-6cb48839cbaa)
+![ALB- Network mapping updated](https://github.com/user-attachments/assets/1abd1190-36cf-4308-a3b5-192896f1ea67)
+![ALB- Details updated](https://github.com/user-attachments/assets/9fd897cc-ab11-47b2-8cef-a7d345a97714)
+
+![ALB- Listeners and rules updated](https://github.com/user-attachments/assets/647e15f3-f896-4ba9-bbe2-9917dbbcb4d3)
+![ALB- Resource map updated](https://github.com/user-attachments/assets/1f484739-d198-46d7-b1ba-7bf26e3c1c3d)
+![ALB- Security updated](https://github.com/user-attachments/assets/7dd9ead4-b4b7-4f8d-a6ca-27104496db26)
+![test ALB 1 updated](https://github.com/user-attachments/assets/937f831c-fc10-4d53-b9e6-ba8ebbc3403c)
+![test ALB 2 updated](https://github.com/user-attachments/assets/a3cc6c7f-2fbf-44ad-b493-c5ddf9c33cc1)

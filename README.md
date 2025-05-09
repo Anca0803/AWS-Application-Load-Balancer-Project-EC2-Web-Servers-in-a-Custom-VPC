@@ -98,21 +98,36 @@
 
 **Note**: This project is currently paused to avoid AWS charges. 
 
-Architecture Diagram:  https://lucid.app/lucidchart/48b3594f-a71a-48e4-99a8-798d397ff804/view 
+- **Architecture Diagram**:  https://lucid.app/lucidchart/48b3594f-a71a-48e4-99a8-798d397ff804/view 
 
 ![ALB diagram](https://github.com/user-attachments/assets/21282d00-d2fb-4558-8b16-9394f5587813)
 
-Please find the Print screens of my work:
-
-![EC2 -1 updated](https://github.com/user-attachments/assets/0cb3b7ca-d6c7-4c3f-b3e4-3d62ce44af53)
+**- Screenshots illustrating the architecture and configuration steps:**
 
 
-![EC2 - 2 updated](https://github.com/user-attachments/assets/415be22f-b927-4edf-bb03-6cb48839cbaa)
-![ALB- Network mapping updated](https://github.com/user-attachments/assets/1abd1190-36cf-4308-a3b5-192896f1ea67)
-![ALB- Details updated](https://github.com/user-attachments/assets/9fd897cc-ab11-47b2-8cef-a7d345a97714)
+- ALB- Network mapping:
+ ![ALB- Network mapping updated](https://github.com/user-attachments/assets/1abd1190-36cf-4308-a3b5-192896f1ea67)
 
-![ALB- Listeners and rules updated](https://github.com/user-attachments/assets/647e15f3-f896-4ba9-bbe2-9917dbbcb4d3)
-![ALB- Resource map updated](https://github.com/user-attachments/assets/1f484739-d198-46d7-b1ba-7bf26e3c1c3d)
-![ALB- Security updated](https://github.com/user-attachments/assets/7dd9ead4-b4b7-4f8d-a6ca-27104496db26)
-![test ALB 1 updated](https://github.com/user-attachments/assets/937f831c-fc10-4d53-b9e6-ba8ebbc3403c)
-![test ALB 2 updated](https://github.com/user-attachments/assets/a3cc6c7f-2fbf-44ad-b493-c5ddf9c33cc1)
+- ALB- Details:
+ ![ALB- Details updated](https://github.com/user-attachments/assets/9fd897cc-ab11-47b2-8cef-a7d345a97714)
+
+- ALB- Listeners and rules:
+ ![ALB- Listeners and rules updated](https://github.com/user-attachments/assets/647e15f3-f896-4ba9-bbe2-9917dbbcb4d3)
+
+- ALB- Resource map:
+  ![ALB- Resource map updated](https://github.com/user-attachments/assets/1f484739-d198-46d7-b1ba-7bf26e3c1c3d)
+  
+- ALB- Security:
+ ![ALB- Security updated](https://github.com/user-attachments/assets/7dd9ead4-b4b7-4f8d-a6ca-27104496db26)
+
+- EC2 - Instance 1:
+ ![EC2 -1 updated](https://github.com/user-attachments/assets/0cb3b7ca-d6c7-4c3f-b3e4-3d62ce44af53)
+
+- EC2 - Instance 2:
+ ![EC2 - 2 updated](https://github.com/user-attachments/assets/415be22f-b927-4edf-bb03-6cb48839cbaa)
+
+ - Test 1  ALB (result: Instance 1)
+ ![test ALB 1 updated](https://github.com/user-attachments/assets/937f831c-fc10-4d53-b9e6-ba8ebbc3403c)
+
+-  Test 2  ALB (result: Instance 2)
+ ![test ALB 2 updated](https://github.com/user-attachments/assets/a3cc6c7f-2fbf-44ad-b493-c5ddf9c33cc1)

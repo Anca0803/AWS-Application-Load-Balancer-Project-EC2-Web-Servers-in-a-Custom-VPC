@@ -2,13 +2,14 @@
 
 **Project Overview**
 
-This project showcases a high-availability web architecture using an Application Load Balancer (ALB) to distribute traffic across two EC2 instances hosted in separate public subnets within a custom VPC. It simulates a real-world load-balanced setup for scalable and resilient web hosting.
+This project showcases a high-availability web architecture using an Application Load Balancer (ALB) to distribute traffic across two EC2 instances hosted in separate public subnets within a custom VPC.
+It simulates a real-world load-balanced setup for scalable and resilient web hosting.
 
 **AWS Services and Resources Used**
 
 - Amazon VPC: Custom Virtual Private Cloud to isolate and control networking
 
-- Subnets: Two public subnets in separate Availability Zones
+- Subnets: Two public subnets in separate Availability Zones (A and B)
 
 - Internet Gateway: For outbound internet access
 
@@ -28,25 +29,45 @@ This project showcases a high-availability web architecture using an Application
 
 **Step-by-Step Setup**
 
-- Created a custom VPC for logical network isolation
+- Create a custom VPC for network isolation
 
-- Create an Internet Gateway and attach to VPC
+- Create an Internet Gateway and attach it to the VPC
   
-- Create Route Table and associate with created subnets
+- Create 2 public subnets attached to our VPC => each in a different Availability Zone (A and B) .I chose the IP ranges for each of them
+  
+- Create Route Table to allow internet access from the public subnets through the Internet Gateway.
+      => Link it with the VPC
+      => Associate it with the subnets created
+      => Associate the route with Internet Gateway in order to be accesible via Internet
 
-- Created two public subnets, each in a different Availability Zone
+- Create 2 EC2 instances (AMI- Ubuntu)
+      => I create a RSA Key Pair for security
+      => attach them with the VPC created & subnets (EC2 1: in AZ A, EC2 2:in AZ B)
+      => assign public IP
+      => create Security Groups (type: ssh -source type: Anywhere  & type: HTML -source type: Anywhere)
+      => use user data to install Apache and serve a basic HTML page showing the hostname and IP:
 
-- Generated an SSH key pair to securely connect to the EC2 instances
+      #!/bin/bash
+      yes | sudo apt update
+      yes | sudo apt install apache2
+      echo "<h1>Server Details</h1><p><strong>Hostname:</strong> $(hostname)</p><p><strong>IP Address:</strong> $(hostname -       I | cut -d' ' -f1)</p>" | sudo tee /var/www/html/index.html
+      sudo systemctl restart apache2
 
-- Launched two Ubuntu EC2 instances, one per subnet
+   => I launch the instances , copy the public IPs and check if the Apache2 worked => OK
 
-- Used user data to install Apache and serve a basic HTML page showing the hostname and IP
+- Create a Instance type Target Groupe =>  ALB will point to this target group
+    => Protocol version : HTTP1
+    => register targets: both EC2 instances
+ 
 
-- Created a target group and registered the EC2s
+- Set up an Application Load Balancer (ALB)
+   => scheme: Internet facing
+   => attached it to the VPC created,
+   => mapp it with the subnets created
+   => create a Security Group for ALB: HTTP , Source- Anywhere in order to allow the access via Internet
+   => Listener: HTTP - Forward to => Target group created
 
-- Set up an Application Load Balancer, attached it to the VPC, and connected it to the target group
-
--  Accessing the public URL of the ALB, demonstrating load distribution between the two instances.
+-  Accessing the public DNS name of the ALB, demonstrating load distribution between the two instances.
 
 
 **Why did I use an Application Load Balancer?**
@@ -70,8 +91,11 @@ This project showcases a high-availability web architecture using an Application
 
 - Creating and using SSH key pairs for secure access
 
-- Setting up and testing an Application Load Balancer with target groups
+- Setting up and testing an Application Load Balancer with target group
 
 - Troubleshooting network access, Apache configuration, and load balancing behavior
 
-**Note**: This project is currently paused to avoid AWS charges. Screenshots and architecture diagrams available upon request.
+**Note**: This project is currently paused to avoid AWS charges. 
+
+![ALB diagram](https://github.com/user-attachments/assets/21282d00-d2fb-4558-8b16-9394f5587813)
+

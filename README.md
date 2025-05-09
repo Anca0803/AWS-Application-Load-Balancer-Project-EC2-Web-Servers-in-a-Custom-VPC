@@ -98,47 +98,47 @@
 
 **Note**: This project is currently paused to avoid AWS charges. 
 
-- **Architecture Diagram**:  https://lucid.app/lucidchart/48b3594f-a71a-48e4-99a8-798d397ff804/view 
+ **Architecture Diagram**:  https://lucid.app/lucidchart/48b3594f-a71a-48e4-99a8-798d397ff804/view 
 
 ![ALB diagram](https://github.com/user-attachments/assets/21282d00-d2fb-4558-8b16-9394f5587813)
 
-**- Screenshots illustrating the architecture and configuration steps:**
+** Screenshots illustrating the architecture and configuration steps:**
 
 
-- ALB- Overview:
+**- ALB- Overview:**
 
 ![ALB- Network mapping updated](https://github.com/user-attachments/assets/ea38ff45-c03e-4743-b23b-3b9e336cd4bc)
 
-- ALB- Details:
+**- ALB- Details:**
+  
 ![ALB- Details updated](https://github.com/user-attachments/assets/3fda1b98-4938-4604-b4b0-ac8ee2b2b7af)
 
-- ALB- Listeners and rules:
+**- ALB- Listeners and rules:**
 
 ![ALB- Listeners and rules updated](https://github.com/user-attachments/assets/2cecae6e-f1f1-47ec-a5db-b9c129697d92)
 
-
-- ALB- Resource map:
+**- ALB- Resource map:**
   
 ![ALB- Resource map updated](https://github.com/user-attachments/assets/5551f843-45e3-4a97-ada2-71af9f849cc2)
 
-- ALB- Security:
+**- ALB- Security:**
 
 ![ALB- Security updated](https://github.com/user-attachments/assets/b75098fb-db21-4f7e-aa5f-1aa2dd4b034f)
 
 
-- EC2 - Instance 1:
+**- EC2 - Instance 1:**
 
 ![EC2 -1 updated](https://github.com/user-attachments/assets/520e005b-b07f-4ca4-8829-b3d63c3f46a8)
 
-- EC2 - Instance 2:
+**- EC2 - Instance 2:**
 
 ![EC2 - 2 updated](https://github.com/user-attachments/assets/18f197fb-625e-4c8d-b652-5254c8ad11dc)
 
- - Test 1  ALB (result: Instance 1)
+** - Test 1  ALB (result: Instance 1)**
  
 ![test ALB 1 updated](https://github.com/user-attachments/assets/d130bc96-2306-4888-9f52-711433b9f2be)
 
--  Test 2  ALB (result: Instance 2)
-- 
+**-  Test 2  ALB (result: Instance 2)**
+  
 ![test ALB 2 updated](https://github.com/user-attachments/assets/887d401a-817f-4cef-a2b6-21c6639ae420)
 

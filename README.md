@@ -102,7 +102,7 @@
 
 ![ALB diagram](https://github.com/user-attachments/assets/21282d00-d2fb-4558-8b16-9394f5587813)
 
-** Screenshots illustrating the architecture and configuration steps:**
+**Screenshots illustrating the architecture and configuration steps:**
 
 
 **- ALB- Overview:**

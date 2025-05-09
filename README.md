@@ -139,11 +139,12 @@
 
 ![EC2 - 2 updated](https://github.com/user-attachments/assets/18f197fb-625e-4c8d-b652-5254c8ad11dc)
 
-**- Test 1  ALB (result: Instance 1)**
- 
-![test ALB 1 updated](https://github.com/user-attachments/assets/d130bc96-2306-4888-9f52-711433b9f2be)
 
-**-  Test 2  ALB (result: Instance 2)**
+**-  Test 2  ALB (result: Instance 1)**
   
 ![test ALB 2 updated](https://github.com/user-attachments/assets/887d401a-817f-4cef-a2b6-21c6639ae420)
+
+**- Test 1  ALB (result: Instance 2)**
+ 
+![test ALB 1 updated](https://github.com/user-attachments/assets/d130bc96-2306-4888-9f52-711433b9f2be)
 

@@ -88,6 +88,15 @@ It simulates a real-world load-balanced setup for scalable and resilient web hos
 - Designing a VPC from scratch with subnets, routing, and security
 
 - Launching and configuring EC2 instances with automated scripts
+![test ALB 2 updated](https://github.com/user-attachments/assets/f1dc5f91-6bfd-465e-abe2-c702b2935ec1)
+![test ALB 1 updated](https://github.com/user-attachments/assets/be63fb52-1f7b-4058-b804-c5caaca389f5)
+![EC2 -1 updated](https://github.com/user-attachments/assets/debc62bb-533a-42fc-903e-8a7f7a812504)
+![EC2 - 2 updated](https://github.com/user-attachments/assets/ea79a375-451c-4ed4-9b86-e372fb75d00c)
+![ALB- Security updated](https://github.com/user-attachments/assets/a3373d05-7658-4f25-9255-a0c329bb4543)
+![ALB- Resource map updated](https://github.com/user-attachments/assets/f97a6963-0f4b-4d54-a906-0001f373efb9)
+![ALB- Network mapping updated](https://github.com/user-attachments/assets/68efe7bb-699d-40d2-894f-9b5f6670a725)
+![ALB- Listeners and rules updated](https://github.com/user-attachments/assets/d396251d-d777-476e-b5bc-a10cbe9b3977)
+![ALB- Details updated](https://github.com/user-attachments/assets/47d0a7da-f14e-40ac-86c4-0bee427abf2e)
 
 - Creating and using SSH key pairs for secure access
 

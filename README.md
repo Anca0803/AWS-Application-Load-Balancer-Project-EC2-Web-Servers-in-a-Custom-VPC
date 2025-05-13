@@ -100,7 +100,7 @@
 
  **Architecture Diagram**:  https://lucid.app/lucidchart/48b3594f-a71a-48e4-99a8-798d397ff804/view 
 
-![ALB diagram](https://github.com/user-attachments/assets/21282d00-d2fb-4558-8b16-9394f5587813)
+https://github.com/Anca0803/AWS-Application-Load-Balancer-Project-EC2-Web-Servers-in-a-Custom-VPC/blob/main/AWS_ALB.png
 
 **Screenshots illustrating the architecture and configuration steps:**
 
